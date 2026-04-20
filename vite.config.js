@@ -3,8 +3,8 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  // Replace 'YUKAS---Website' with your exact repository name if different
-  base: '/YUKAS---Website/',
+  // Base path for GitHub Pages. Update to new repository name.
+  base: '/YUKAS_ENDTerm/',
   plugins: [
     react(),
     tailwindcss(),
